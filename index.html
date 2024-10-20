@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | QR code component</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+       body{
+        background-color: hsl(212, 45%, 89%);
+       }
+      
+        .Component{
+          background-color:#fff;
+          width: 332px;
+          height: 530px;
+          border-radius: 15px;
+          font-family: outfit;
+          margin: 5em auto;
+          box-shadow: 0px 5px 20px rgba(16, 16, 19, 0.2);
+          margin-top: 300px;
+        }
+        .img{
+            width: 300px;
+            margin-top: 15px;
+            margin-left: 15px;
+            border-radius: 15px;
+        }
+        .m-h{
+           font-size: 23px;
+           text-align: center;
+           margin-top: 20px;
+           margin-left: 20px;
+           margin-right: 15px;
+        }
+        .s-h{
+            font-size: 15px;
+            margin-top: 15px;
+            text-align: center;
+            width: 250px;
+            margin-left: 40px;
+            /* margin-right: 18px; */
+            
+            color:hsl(216, 15%, 48%) ;
+            /* Slate 300: hsl(212, 45%, 89%)
+            - Slate 500: hsl(216, 15%, 48%)
+            - Slate 900: hsl(218, 44%, 22%) */
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="Card">
+        <div class="Component">
+            <div class="image">
+                <img class="img" src="images/image-qr-code.png" alt="">
+            </div>
+            <div class="info">
+                <h3 class="m-h">
+                    Improve your front-end skills by building projects
+                </h3>
+                <p class="s-h">
+                    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
